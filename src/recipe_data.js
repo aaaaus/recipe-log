@@ -26,6 +26,12 @@ const recipes = [
       "Return the cooked pasta, crispy bacon (crumble into smaller pieces if desired), and chopped broccoli to the pot with the cheese sauce. Stir to combine. Serve immediately."
     ],
     link: "https://www.budgetbytes.com/one-pot-bacon-broccoli-mac-cheese/"
+  },
+  {
+    name: "Loaded Potatoes",
+    ingredients: [],
+    directions: [],
+    link: ''
   }
 ];
 

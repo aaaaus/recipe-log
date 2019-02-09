@@ -1,6 +1,7 @@
 import React from 'react';
-import recipeData from '../recipe_data.js'
 
+import RecipeList from './RecipeList'
+import recipeData from '../recipe_data.js'
 
 const recipes = recipeData
 
@@ -13,8 +14,9 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        <h1>RECIPES</h1>
-        <p>{recipes[0].name}</p>
+        <RecipeList
+          recipes={this.state.recipes}
+        />
       </div>
     )
   }
